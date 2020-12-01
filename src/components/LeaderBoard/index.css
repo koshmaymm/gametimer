@@ -1,0 +1,28 @@
+.leader-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    border: 1px solid var(--grey);
+    box-sizing: border-box;
+    padding-top: 100px;
+}
+
+.leader-board ul {
+    list-style-type: none;
+    width: 100%;
+    max-width: 400px;
+    padding-inline-start: 0;
+}
+
+.leader-board ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    background: #ced8dc;
+    color: #9ea8ab;
+    padding: 0 20px;
+    margin-bottom: 2px;
+}

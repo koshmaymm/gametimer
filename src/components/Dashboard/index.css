@@ -1,0 +1,11 @@
+.dashboard {
+    width: 100%;
+    min-height: 100vh;
+    border: 1px solid var(--grey);
+    display: flex;
+}
+
+.dashboard>h2 {
+    text-align: center;
+    padding-top: 100px;
+}
